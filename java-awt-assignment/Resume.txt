@@ -1,0 +1,23 @@
+                                                          Resume
+   Personal Details
+  
+   First Name  :-   Shagun
+   Sex  :-  Female
+   DOB(dd/mm/yy)  :-   26/12/2000
+   Email Address  :-  inss@gmail.com
+   Mobile no.  :-  9876543289
+   Postal Address   :-   A-114,  Olive Street
+
+   Educational Details
+  
+   Institute Name  :-  National Institute of Technology Delhi
+   Branch  :-  CSE
+   Semester  :-  4
+   Area of Interest  :-  Web Development 
+   Skills  :-  C
+               Java
+               C++
+               JavaScript
+               HTML
+               CSS
+                      
