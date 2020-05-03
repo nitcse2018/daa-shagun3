@@ -1,0 +1,19 @@
+Byte Streams and Character Streams
+
+A byte stream access the file byte by byte. 
+Java programs use byte streams to perform input and output of 8-bit bytes. 
+It is suitable for any kind of file, however not quite appropriate for text files. 
+For example, if the file is using a unicode encoding and a character is represented with two bytes, 
+the byte stream will treat these separately and you will need to do the conversion yourself. 
+Byte oriented streams do not use any encoding scheme while Character oriented streams use character 
+encoding scheme(UNICODE).
+All byte stream classes are descended from InputStream and OutputStream .
+
+A character stream will read a file character by character. 
+Character Stream is a higher level concept than Byte Stream. 
+A Character Stream is, effectively, a Byte Stream that has been wrapped with logic that allows 
+it to output characters from a specific encoding . 
+That means, a character stream needs to be given the file's encoding in order to work properly. 
+Character stream can support all types of character sets ASCII, Unicode, UTF-8, UTF-16 etc. 
+All character stream classes 
+are descended from Reader and Writer .
